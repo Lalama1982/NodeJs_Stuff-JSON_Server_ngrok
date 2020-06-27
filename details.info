@@ -1,0 +1,18 @@
+1) Open 2 terminals
+2) On terminal 1: Execute "npm run db"
+   - Should not show any error
+3) On terminal 2: Execute "npm run tunnel"
+   - Below code should show below
+        ngrok by @inconshreveable                                                                                                                                  (Ctrl+C to quit)
+        Session Status                online
+        Session Expires               7 hours, 59 minutes
+        Version                       2.3.35
+        Region                        United States (us)
+        Web Interface                 http://127.0.0.1:4040
+        Forwarding                    http://d968fc573c3f.ngrok.io -> http://localhost:3000
+        Forwarding                    https://d968fc573c3f.ngrok.io -> http://localhost:3000
+
+        Connections                   ttl     opn     rt1     rt5     p50     p90     
+                                        0       0       0.00    0.00    0.00    0.00    
+4) Use the address as "Forwarding", hence your phone/emulator/any one in network can access the "json-server"
+5) Session life time is limited as highlighted in green (for 8 hrs), hence need to restart every time, but will be a new url
