@@ -1,0 +1,19 @@
+{
+  "blogposts": [
+    {
+      "id": 1,
+      "title": "db.json default post",
+      "content": "db.json default content"
+    },
+    {
+      "title": "Title 3u",
+      "content": "Content 3u",
+      "id": 3
+    },
+    {
+      "title": "Title 4u",
+      "content": "Content 4u",
+      "id": 4
+    }
+  ]
+}
